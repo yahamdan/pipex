@@ -6,7 +6,7 @@
 #    By: yahamdan <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/17 12:18:11 by yahamdan          #+#    #+#              #
-#    Updated: 2023/02/26 14:57:41 by yahamdan         ###   ########.fr        #
+#    Updated: 2023/03/02 16:33:19 by yahamdan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,6 @@ BSRC = \
 		./pipex_bonus/get_next_line.c		\
 		./pipex_bonus/get_next_line_utils.c \
 		./pipex_bonus/pipex_bonus.c 		\
-		./pipex_bonus/pipex_utile_bonus.c 	\
 		./pipex_bonus/get_path.c
 
 OBJ = $(SRC:.c=.o)

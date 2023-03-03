@@ -6,7 +6,7 @@
 /*   By: yahamdan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/13 02:01:42 by yahamdan          #+#    #+#             */
-/*   Updated: 2023/02/25 20:53:41 by yahamdan         ###   ########.fr       */
+/*   Updated: 2023/03/02 11:10:57 by yahamdan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,9 @@ int	check_here_doc(int ac, char **av)
 	int	c;
 
 	c = 0;
-	if (ac < 6)
+	if (ac < 6 && ft_strncmp("here_doc", av[1], ft_strlen(av[1])) == 0)
+		ft_exit(0);
+	else if (ac < 5)
 		ft_exit(0);
 	if (ft_strncmp("here_doc", av[1], ft_strlen(av[1])) == 0)
 	{
